@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.style {
+.colorStyle {
     background-color: lavender;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -21,11 +21,11 @@ header  {
 
 
 header h1 {
-   font-family: 'Courier New', Courier, monospace;
-   grid-column: 2/4;
-   font-weight: bolder;
-   margin-top: 20px;
-   margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-column: 2/4;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 
