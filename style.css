@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.colorStyle {
+.style {
     background-color: lavender;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -19,13 +19,15 @@ header  {
 
 }
 
+
 header h1 {
-    font-family: 'Courier New', Courier, monospace;
-    grid-column: 2/4;
-    font-weight: bolder;
-    margin-top: 20px;
-    margin-left: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   grid-column: 2/4;
+   font-weight: bolder;
+   margin-top: 20px;
+   margin-left: 20px;
 }
+
 
 img{
     grid-column: 1/2;
@@ -61,6 +63,17 @@ form {
     grid-column: 2/5;
     margin-left: 50px;
     font-family: monospace;
+}
+
+
+input #review {
+    width: 400px;
+}
+
+
+input .submit-button {
+    margin-right: 10px;
+    width: 200px;
 }
 
 ul {
